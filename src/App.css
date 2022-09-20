@@ -7,9 +7,23 @@
 .add-to-cart img {
   width: 70px;
   position: absolute;
-  right: 1%;
-  top: 3%;
+  right: 30px;
+  top: 15px;
 }
+
+.card-count {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  z-index: 1;
+  background: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 20px;
+  padding: 6px;
+}
+
 .cart-wrapper {
   display: flex;
   justify-content: space-evenly;
