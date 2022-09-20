@@ -1,8 +1,8 @@
 import { ADD_TO_CART, REMOVE_TO_CART } from "../constants";
 
-const initialState = {
-  cardData: [],
-};
+// const initialState = {
+//   cardData: [],
+// };
 
 export const cardItems = (state = [], action) => {
   switch (action.type) {
