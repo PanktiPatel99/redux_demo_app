@@ -42,13 +42,21 @@
 .text-wrapper {
   display: flex;
   flex-direction: column;
+  width: 115px;
 }
 
 .btn-wrapper button {
   background-color: rgb(20, 20, 59);
   color: white;
   padding: 10px 15px;
+  border: 2px solid rgb(20, 20, 59);
   border-radius: 6px;
-  box-shadow: #333 0px 1px 5px;
+  box-shadow: #333 0px 1px 3px;
   font-weight: bold;
+}
+
+.btn-wrapper .remove-to-cart {
+  background-color: #f50b0b;
+  margin-top: 5px;
+  border: 2px solid #f50b0b;
 }
